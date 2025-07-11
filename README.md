@@ -33,15 +33,17 @@ Output Files
 
 Tools & Technologies Used
 
--Python 3
--requests – for API calls
--xml.etree.ElementTree – for XML parsing
--csv – for file output
--ChatGPT – as an LLM to guide code structure and design decisions
+. Python 3
+. requests – for API calls
+. xml.etree.ElementTree – for XML parsing
+. csv – for file output
+. ChatGPT – as an LLM to guide code structure and design decisions
+
+
 Sample Output CSV Fields
 
-Column Name	Description
 
+Column Name	Description
 PubmedID-Unique paper ID
 Title-	Title of the paper
 Publication Date-	Year of publication
