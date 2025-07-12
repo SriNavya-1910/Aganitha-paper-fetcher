@@ -1,11 +1,11 @@
 
-# 🧪 Aganitha Paper Fetcher
+Aganitha Paper Fetcher
 
 This project is a Python command-line tool that fetches research papers from PubMed based on a user-specified query. It identifies papers where at least one author is affiliated with a **non-academic (pharma/biotech)** company and saves the results in a CSV file.
 
 ---
 
-## ✨ Features
+Features
 
 - Fetches research papers using the PubMed API  
 - Filters authors with non-academic/company affiliations  
@@ -14,7 +14,7 @@ This project is a Python command-line tool that fetches research papers from Pub
 
 ---
 
-## 📦 Requirements
+Requirements
 
 - Python 3.x  
 - `requests` module  
@@ -26,7 +26,7 @@ pip install requests
 
 ---
 
-🚀 How to Run
+How to Run
 
 python main.py
 
@@ -49,7 +49,7 @@ Save valid results to filtered_papers.csv
 
 ---
 
-📁 Output Files
+Output Files
 
 paper_details.xml: Raw metadata of fetched papers
 
@@ -59,7 +59,7 @@ filtered_papers.csv: Final filtered paper info
 
 ---
 
-🧠 Tools & Technologies Used
+Tools & Technologies Used
 
 Python 3
 
@@ -77,7 +77,7 @@ ChatGPT – for LLM-based development guidance
 
 
 
-## 📊 Sample Output CSV Fields
+## CSV Field Sample Output
 
 | Column Name               | Description                                         |
 |--------------------------|-----------------------------------------------------|
@@ -88,14 +88,12 @@ ChatGPT – for LLM-based development guidance
 | Company Affiliation(s)   | Names of pharma/biotech companies from affiliation  |
 
 
-Heuristics for Non-Academic Authors
-
+Methods for Recognizing Company Authors
 -Affiliations not containing
 keywords like:
 university, institute, college, school, department are assumed to be company or industry-affiliated.
 
- Developer Info
-
+Developer Info
 Name: Srinavya
 Batch: 2024
 Role: Full Stack Developer Intern (Fresher)
